@@ -1,5 +1,6 @@
 .photo-grid {
-margin: 0 48px;
+width: calc(100vw - 96px);
+margin: 0 auto;
     display: grid;
     grid-template-columns: 284px 284px 284px 284px;
     grid-template-rows: 213px 213px 213px;

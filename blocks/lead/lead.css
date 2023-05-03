@@ -1,5 +1,5 @@
 .lead {
-width: calc(100vw - 296px);
+max-width: calc(100vw - 296px);
 margin: 56px auto 0;
 
 }
