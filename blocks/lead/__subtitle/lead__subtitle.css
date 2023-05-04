@@ -1,8 +1,8 @@
 .lead__subtitle {
     display: flex;
     justify-content: center;
-width: 640px;
-    margin: 32px 172px 0;
+    width: 640px;
+    margin: 32px auto 0;
     text-align: center;
     color: #ffffff;
     font-family: 'Inter';
@@ -14,7 +14,7 @@ width: 640px;
 
 @media screen and (max-width: 320px) {
     .lead__subtitle {
-        margin: 16px auto 0;
+        margin: 16px 16px 0;
         width: 288px;
         font-weight: 400;
         font-size: 16px;
