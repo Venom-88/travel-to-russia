@@ -7,10 +7,10 @@
     flex-direction: column;
     color: #fff;
     text-decoration: none;
-    margin: 12px auto 0;
+    margin: 12px 48px 0;
     background-repeat: no-repeat;
     background-size: cover;
-    width: calc(100vw - 96px);
+    width: 1184px;
     height: calc((100vw - 96px) * (740/1184));
 }
 .cover::before {

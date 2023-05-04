@@ -1,5 +1,5 @@
 .footer {
-    width: calc(100vw - 96px);
+    width: 1184px;
     
     display: flex;
     justify-content: space-between;

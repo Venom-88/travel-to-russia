@@ -1,7 +1,7 @@
 .lead__subtitle {
     display: flex;
     justify-content: center;
-
+width: 640px;
     margin: 32px 172px 0;
     text-align: center;
     color: #ffffff;
