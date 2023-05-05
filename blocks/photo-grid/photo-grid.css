@@ -1,6 +1,6 @@
 .photo-grid {
 width: calc(100vw - 96px);
-margin: 0 auto;
+margin: 0 48px;
     display: grid;
     grid-template-columns: 284px 284px 284px 284px;
     grid-template-rows: 213px 213px 213px;
@@ -9,6 +9,7 @@ margin: 0 auto;
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
+        margin: 0 48px;
         grid-template-columns: 300px 300px 300px;
     grid-template-rows: 225px 225px 225px 225px;
     gap: 14px;
@@ -17,7 +18,8 @@ margin: 0 auto;
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        margin: 0 24px;
+        width: 720px;
+        margin: 0 0 0 24px;
         grid-template-columns: 352px 352px;
     grid-template-rows: 264px 264px 264px 264px 264px 264px;
     gap: 16px;
