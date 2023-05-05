@@ -1,6 +1,6 @@
 .photo-grid {
-width: calc(100vw - 96px);
-margin: 0 48px;
+    max-width: calc(100vw - 96px);
+    margin: 0 48px;
     display: grid;
     grid-template-columns: 284px 284px 284px 284px;
     grid-template-rows: 213px 213px 213px;
@@ -11,18 +11,18 @@ margin: 0 48px;
     .photo-grid {
         margin: 0 48px;
         grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 225px 225px 225px 225px;
-    gap: 14px;
+        grid-template-rows: 225px 225px 225px 225px;
+        gap: 14px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        width: 720px;
-        margin: 0 0 0 24px;
+        max-width: 100%;
+        margin: 0 24px 0;
         grid-template-columns: 352px 352px;
-    grid-template-rows: 264px 264px 264px 264px 264px 264px;
-    gap: 16px;
+        grid-template-rows: 264px 264px 264px 264px 264px 264px;
+        gap: 16px;
     }
 }
 
@@ -30,7 +30,7 @@ margin: 0 48px;
     .photo-grid {
         margin: 0 16px;
         grid-template-columns: 288px;
-    grid-template-rows: repeat(12, 216px);
-    gap: 12px;
+        grid-template-rows: repeat(12, 216px);
+        gap: 12px;
     }
 }

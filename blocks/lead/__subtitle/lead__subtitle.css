@@ -1,7 +1,7 @@
 .lead__subtitle {
     display: flex;
     justify-content: center;
-    width: 640px;
+    max-width: 640px;
     margin: 32px auto 0;
     text-align: center;
     color: #ffffff;
@@ -13,7 +13,7 @@
 }
 @media screen and (max-width: 768px) {
     .lead__subtitle {
-        width: 640px;
+        max-width: 100%;
         margin: 32px 64px 0;
     }
     
