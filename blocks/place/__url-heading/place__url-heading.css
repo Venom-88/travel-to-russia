@@ -5,7 +5,9 @@
   font-size: 12px;
   line-height: 170%;
   letter-spacing: 2px;
-  margin: 30px auto 12px;
+  margin: 0 auto 12px;
+  color: #AAA;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
