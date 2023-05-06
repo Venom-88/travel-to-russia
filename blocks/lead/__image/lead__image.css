@@ -1,25 +1,25 @@
 .lead__image {
-    max-width: calc(100vw - 296px);
-    margin: 64px auto 8px;
+  max-width: 100%;
+  margin: 64px auto 8px;
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__image {
-        max-width: calc(100vw - 96px);
-        margin: 56px auto 8px; 
-    }
+  .lead__image {
+    max-width: 100%;
+    margin: 56px auto 8px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .lead__image {
-        max-width: 100%;
-        margin: 56px 0 8px; 
-    }
+  .lead__image {
+    max-width: 100%;
+    margin: 56px 0 8px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .lead__image {
-        max-width:320px;
-        margin: 40px auto 8px; 
-    }
+  .lead__image {
+    max-width: 100%;
+    margin: 40px auto 8px;
+  }
 }
