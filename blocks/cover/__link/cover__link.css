@@ -28,17 +28,19 @@
   .cover__link:hover:before {
     opacity: 0.8;
   }
-  @media screen and (max-width: 1024px) {
-    .cover__link {
-      width: 100%;
-      min-height: calc((100vw) * (640 / 1024));
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
+  /*1024*/
+  @media screen and (max-width: 1279px) {
     .cover__link {
       max-width: 100%;
-      margin: 12px 0 0;
+      min-height: calc(100vw * (640/1024));
+    }
+  }
+  /*768*/
+  @media screen and (max-width: 1023px) {
+    .cover__link {
+      max-width: 100%;
+      min-height: calc(100vw * (480/768));
+      margin: 0;
     }
   }
   

@@ -6,7 +6,7 @@
   line-height: 18px;
   text-decoration: none;
   color: #fff;
-  margin: 0 0 0 9px;
+  gap: 18px;
 }
 .footer__link:first-child {
   margin-left: 0;
