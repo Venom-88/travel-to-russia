@@ -1,11 +1,11 @@
 .content {
   font-family: "Inter", "Arial", sans-serif;
-  max-width: calc(1280px - 96px);
+  max-width: 1280px;
   margin: 0 auto;
 }
 /*1024*/
 @media screen and (max-width: 1279px) {
   .content {
-    max-width: calc(1024px - 96px);
+
   }
 }

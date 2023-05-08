@@ -2,12 +2,12 @@
   font-family: "Inter", "Arial", sans-serif;
   max-width: 690px;
   margin: 92px auto;
-  margin-left: 100px;
+  margin-left: 148px;
 }
 /*1024*/
 @media screen and (max-width: 1279px) {
   .intro {
-    margin-left: 0;
+    margin-left: 48px;
   }
 }
 /*768*/
