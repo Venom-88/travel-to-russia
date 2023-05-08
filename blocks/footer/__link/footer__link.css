@@ -1,15 +1,11 @@
 .footer__link {
-  font-family: "Inter", "Arial", "sans-serif";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
   color: #fff;
-  gap: 18px;
-}
-.footer__link:first-child {
-  margin-left: 0;
 }
 .footer__link:hover {
   opacity: 0.8;
@@ -18,8 +14,5 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
-  }
-  .footer__link:first-child {
-    margin-top: 0;
   }
 }

@@ -1,10 +1,6 @@
 .place__website {
+  font-family: "Inter", "Arial", sans-serif;
   align-self: self-end;
-}
-/*768*/
-@media screen and (max-width: 1023px) {
-  .place__website {
-  }
 }
 /*320*/
 @media screen and (max-width: 767px) {

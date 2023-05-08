@@ -5,7 +5,7 @@
   margin: 32px auto 0;
   text-align: center;
   color: #ffffff;
-  font-family: "Inter", "Arial", "sans-serif";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -21,8 +21,7 @@
 /*320*/
 @media screen and (max-width: 767px) {
   .lead__subtitle {
-    margin: 16px auto;
-    max-width: 100%;
+    margin: 16px auto 0;
     font-size: 16px;
     line-height: 20px;
   }

@@ -1,25 +1,6 @@
 .place__image {
-  width: 460px;
-  height: 460px;
+  max-width: 100%;
+  height: 100%;
 }
-/*1024*/
-@media screen and (max-width: 1279px) {
-  .place__image {
-    width: 440px;
-    height: 440px;
-  }
-}
-/*768*/
-@media screen and (max-width: 1023px) {
-  .place__image {
-    max-width: 340px;
-    max-height: 340px;
-  }
-}
-/*320*/
-@media screen and (max-width: 767px) {
-  .place__image {
-    max-width: 100%;
-    max-height: 320px;
-  }
-}
+
+
