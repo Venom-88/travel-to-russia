@@ -3,9 +3,4 @@
   max-width: 1280px;
   margin: 0 auto;
 }
-/*1024*/
-@media screen and (max-width: 1279px) {
-  .content {
 
-  }
-}

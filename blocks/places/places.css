@@ -13,7 +13,6 @@
 /*768*/
 @media screen and (max-width: 1023px) {
   .places {
-    max-width: 100%;
     margin: 88px auto 90px;
   }
 }
